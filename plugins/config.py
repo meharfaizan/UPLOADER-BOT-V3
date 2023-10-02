@@ -11,19 +11,19 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1823808722:AAFlWM_qHhQbClnWzWHPD3mSCQlCDVVOFd8")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5541380668:AAE5-sCe3KnQfoqJ6Tf0zujwq5rZfwTpvx4")
 
-    API_ID = int(os.environ.get("API_ID", "663122"))
+    API_ID = int(os.environ.get("API_ID", "6534707"))
 
-    API_HASH = os.environ.get("API_HASH", "23dac54b523173b5f83014ae566584bd")
+    API_HASH = os.environ.get("API_HASH", "4bcc61d959a9f403b2f20149cbbe627a")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "662933911").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1430593323").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "NewBotz")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "animecolony")
 
     MAX_FILE_SIZE = 4194304000
 
@@ -45,16 +45,16 @@ class Config(object):
 
     DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aswanthvk:aswanthvk@cluster0.ul7sp2m.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "SuperDLBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "Hptecbot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001438032160"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001843564893"))
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "662933911"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1430593323"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "NewBotz")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "animecolony")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "SuperDLBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Hptecbot")
